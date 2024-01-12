@@ -1,0 +1,25 @@
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.backdrop-nutrition.is-hidden {
+  position: absolute;
+  bottom: -10000px;
+  right: -10000px;
+  top: auto;
+}
+
+// .mobile-btn-open {
+//   transform: translate x(0);
+// }

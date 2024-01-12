@@ -1,0 +1,29 @@
+// TALKWALK-SECTION
+.icon-food {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -93px;
+  left: 30px;
+}
+
+// SERVICES-SECTION
+
+.services-arrow-icon {
+  fill: var(--color-brand);
+}
+
+// CUSTOMER-SECTION
+
+.arrow-icon {
+  fill: var(--color-secondary-text);
+  transition: fill 0.3s;
+
+  &:hover {
+    fill: var(--color-brand);
+  }
+}
+
+.arrow-right {
+  transform: rotate(180deg);
+}

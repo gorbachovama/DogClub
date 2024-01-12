@@ -1,0 +1,152 @@
+.footer {
+  position: relative;
+  margin: 55px 0 0 0;
+  background-color: var(--color-background);
+  padding-top: 18px;
+  padding-bottom: 31px;
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 32px;
+
+    margin: 55px 0 50px 0;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    @media screen and (min-width: 1280px) {
+      flex-direction: row;
+      gap: 136px;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+
+    @media screen and (min-width: 1280px) {
+      flex-direction: row;
+      gap: 136px;
+    }
+  }
+
+  &__icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    @media screen and (min-width: 1280px) {
+      align-items: start;
+    }
+  }
+
+  &__logo-icon {
+    display: flex;
+    align-items: center;
+  }
+
+  &__icon {
+    width: 16px;
+    height: 16px;
+    fill: var(--color-brand);
+
+    @media screen and (min-width: 786px) {
+      width: 43px;
+      height: 43px;
+    }
+  }
+
+  &__social-icons {
+    display: none;
+
+    @media screen and (min-width: 1280px) {
+      display: block;
+      display: flex;
+      gap: 8px;
+    }
+  }
+
+  &__mobile-social-icons {
+    display: block;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
+
+  &__icon-footer {
+    fill: var(--color-brand);
+  }
+
+  &__menu {
+    display: grid;
+    gap: 16px;
+    padding-left: 0;
+  }
+
+  &__link {
+    font-size: 16px;
+    line-height: 1.3;
+    color: var(--color-text);
+    transition: color 0.3s;
+
+    &:hover {
+      color: var(--color-brand);
+    }
+
+    @media screen and (min-width: 786px) {
+      font-size: 18px;
+    }
+  }
+
+  &__mobile-footer-dog {
+    display: block;
+    position: absolute;
+    top: -120px;
+    right: 40%;
+
+    @media screen and (min-width: 768px) {
+      right: 45%;
+    }
+
+    // left: 50%;
+
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
+
+  &__footer-dog {
+    display: none;
+
+    @media screen and (min-width: 1280px) {
+      display: block;
+      position: absolute;
+      bottom: -45px;
+      right: 100px;
+    }
+
+    // position: absolute;
+    // top: -120px;
+    // right: 50%;
+    // left: 50%;
+    // width: 128px;
+    // height: 145.469px;
+
+    // @media screen and (min-width: 1280px) {
+    //   position: absolute;
+    //   bottom: -45px;
+    //   right: 100px;
+    //   width: 292px;
+    //   height: 305px;
+    // }
+  }
+}

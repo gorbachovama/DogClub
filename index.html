@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <title>DOGclub</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__container">
+          <nav class="header__nav">
+            <div class="header__logo-icon">
+              <svg class="icon" width="43" height="43">
+                <use href="./img/symbol-defs.svg#icon-icon"></use>
+              </svg>
+              <a class="link color-brand logo" href="./index.html">
+                <span class="weigth-span">DOG</span>club
+              </a>
+            </div>
+
+            <ul class="header__menu">
+              <li class="header__menu-item">
+                <a class="link header__link-item" href="#less-talk"
+                  >Less talk</a
+                >
+              </li>
+              <li class="header__menu-item">
+                <a class="link header__link-item" href="#services"
+                  >Services category</a
+                >
+              </li>
+              <li class="header__menu-item">
+                <a class="link header__link-item" href="#customer"
+                  >Happy customer</a
+                >
+              </li>
+              <li class="header__menu-item">
+                <a class="link header__link-item" href="#contacts">Contact</a>
+              </li>
+            </ul>
+            <div class="header__basket-container">
+              <a>
+                <svg class="header__icon-basket" width="40" height="40">
+                  <use href="./img/symbol-defs.svg#icon-backet"></use>
+                </svg>
+              </a>
+              <button
+                class="header__button button modal-btn-open"
+                type="button"
+              >
+                Contact us
+              </button>
+              <button class="header__burger menu-btn-open" type="button">
+                <svg width="24" height="24">
+                  <use href="./img/symbol-defs.svg#icon-burder-menu"></use>
+                </svg>
+              </button>
+            </div>
+          </nav>
+          <div class="mobile-menu">
+            <button class="mobile-menu__btn-close menu-btn-close" type="button">
+              <svg width="24" height="24">
+                <use href="./img/symbol-defs.svg#icon-menu-cross"></use>
+              </svg>
+            </button>
+
+            <div class="header__logo-icon mobile-menu__mobile-logo">
+              <svg class="icon" width="43" height="43">
+                <use href="./img/symbol-defs.svg#icon-icon"></use>
+              </svg>
+              <a class="link color-brand logo" href="./index.html">
+                <span class="weigth-span">DOG</span>club
+              </a>
+            </div>
+            <ul class="mobile-menu__menu">
+              <li class="header__menu-item">
+                <a class="link header__link-item" href="#less-talk"
+                  >Less talk</a
+                >
+              </li>
+              <li class="header__menu-item">
+                <a class="link header__link-item" href="#services"
+                  >Services category</a
+                >
+              </li>
+              <li class="header__menu-item">
+                <a class="link header__link-item" href="#customer"
+                  >Happy customer</a
+                >
+              </li>
+              <li class="header__menu-item">
+                <a class="link header__link-item" href="#contacts">Contact</a>
+              </li>
+            </ul>
+            <div class="footer__social-icons mobile-menu__socials">
+              <svg class="footer__icon-footer" width="43" height="43">
+                <use href="./img/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="43"
+                height="43"
+                viewBox="0 0 40 40"
+                fill="none"
+              >
+                <path
+                  d="M36.25 20C36.25 16.7861 35.297 13.6443 33.5114 10.972C31.7258 8.29969 29.1879 6.21689 26.2186 4.98696C23.2493 3.75704 19.982 3.43524 16.8298 4.06225C13.6776 4.68926 10.7821 6.23692 8.50952 8.50952C6.23692 10.7821 4.68926 13.6776 4.06225 16.8298C3.43524 19.982 3.75704 23.2493 4.98696 26.2186C6.21689 29.1879 8.29969 31.7258 10.972 33.5114C13.6443 35.297 16.7861 36.25 20 36.25C24.3085 36.2459 28.4394 34.5325 31.4859 31.4859C34.5325 28.4394 36.2459 24.3085 36.25 20ZM21.25 33.6875V23.75H25C25.3315 23.75 25.6495 23.6183 25.8839 23.3839C26.1183 23.1495 26.25 22.8315 26.25 22.5C26.25 22.1685 26.1183 21.8505 25.8839 21.6161C25.6495 21.3817 25.3315 21.25 25 21.25H21.25V17.5C21.25 16.837 21.5134 16.2011 21.9822 15.7322C22.4511 15.2634 23.087 15 23.75 15H26.25C26.5815 15 26.8995 14.8683 27.1339 14.6339C27.3683 14.3995 27.5 14.0815 27.5 13.75C27.5 13.4185 27.3683 13.1005 27.1339 12.8661C26.8995 12.6317 26.5815 12.5 26.25 12.5H23.75C22.4252 12.5041 21.1558 13.0322 20.219 13.969C19.2822 14.9058 18.7541 16.1752 18.75 17.5V21.25H15C14.6685 21.25 14.3505 21.3817 14.1161 21.6161C13.8817 21.8505 13.75 22.1685 13.75 22.5C13.75 22.8315 13.8817 23.1495 14.1161 23.3839C14.3505 23.6183 14.6685 23.75 15 23.75H18.75V33.6875C15.2262 33.3658 11.9621 31.6981 9.63663 29.0312C7.31112 26.3643 6.10325 22.9035 6.26425 19.3688C6.42525 15.834 7.94274 12.4974 10.5011 10.053C13.0594 7.60854 16.4616 6.24444 20 6.24444C23.5384 6.24444 26.9406 7.60854 29.499 10.053C32.0573 12.4974 33.5748 15.834 33.7358 19.3688C33.8968 22.9035 32.6889 26.3643 30.3634 29.0312C28.0379 31.6981 24.7738 33.3658 21.25 33.6875Z"
+                  fill="#FF9F0E"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="container">
+          <div class="hero-section__container">
+            <div class="hero-section__content">
+              <h1 class="hero-section__title">
+                Taking care for<br />
+                your Smart Dog!
+              </h1>
+              <p class="hero-section__text">
+                Human–canine bonding is the relationship<br />
+                between dogs and humans
+              </p>
+              <button class="button hero-section__button" type="button">
+                Explore more
+              </button>
+            </div>
+
+            <div class="hero-section__dogs">
+              <img
+                class="hero-section__img"
+                srcset="./img/hero-dog.png 1x, ./img/hero-dog@2x.png 2x"
+                src="./img/hero-dog.png"
+                alt="dog"
+              />
+              <img
+                class="hero-section__vector"
+                src="./img/Vector-hero.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="talkwalk-section" id="less-talk">
+        <div class="container">
+          <div class="talkwalk-section__container">
+            <div class="talkwalk-section__content">
+              <svg
+                class="talkwalk-section__arrow-mobile"
+                width="48"
+                height="40"
+              >
+                <use href="./img/symbol-defs.svg#icon-arrow"></use>
+              </svg>
+              <h2 class="talkwalk-section__title">
+                Less talk<br />
+                and more walk
+              </h2>
+              <p class="talkwalk-section__text">
+                Sometimes our career, lifestyle, or routines can make it
+                difficult to<br />
+                provide your pet with the recommended amount of exercise that
+                <br />they need. Which is why, it’s okay to use an extra hand in
+                walking<br />
+                dogs so they are in perfect shape, mentally and physically.
+              </p>
+              <button class="button talkwalk-section__button" type="button">
+                Explore more
+              </button>
+              <svg class="talkwalk-section__play-mobile" width="73" height="72">
+                <use href="./img/symbol-defs.svg#icon-video"></use>
+              </svg>
+            </div>
+            <div class="talkwalk-section__img">
+              <img
+                class="talkwalk-section__dog"
+                srcset="
+                  ./img/talk&walk-dog.jpg    1x,
+                  ./img/talk&walk-dog@2x.jpg 2x
+                "
+                src="./img/talk&walk-dog.jpg"
+                alt="dog"
+              />
+              <svg class="icon-food" width="72" height="48">
+                <use href="./img/symbol-defs.svg#icon-food"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services-section" id="services">
+        <img
+          class="services-section__img"
+          src="./img/services-arrow.png"
+          alt="arrow"
+        />
+        <div class="container">
+          <h2 class="services-section__title">Services category</h2>
+          <div class="services-section__slider">
+            <div
+              class="services-section__content swiper-container"
+              id="swiper-container-1"
+            >
+              <ul class="category-cards swiper-wrapper">
+                <li class="swiper-slide">
+                  <article class="category-cards__item">
+                    <svg width="96" height="96">
+                      <use href="./img/symbol-defs.svg#icon-grooming"></use>
+                    </svg>
+                    <a class="link category-cards__link" href="#">Grooming </a>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="category-cards__item">
+                    <svg width="96" height="96">
+                      <use href="./img/symbol-defs.svg#icon-nutrition"></use>
+                    </svg>
+                    <a class="link category-cards__link" href="./index2.html"
+                      >Nutrition
+                    </a>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="category-cards__item">
+                    <svg width="96" height="96">
+                      <use href="./img/symbol-defs.svg#icon-training"></use>
+                    </svg>
+                    <a class="link category-cards__link" href="#">Training </a>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="category-cards__item">
+                    <svg width="96" height="96">
+                      <use href="./img/symbol-defs.svg#icon-bathing"></use>
+                    </svg>
+                    <a class="link category-cards__link" href="#">Bathing </a>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="category-cards__item">
+                    <svg width="96" height="96">
+                      <use href="./img/symbol-defs.svg#icon-grooming"></use>
+                    </svg>
+                    <a class="link category-cards__link" href="#">Grooming </a>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="category-cards__item">
+                    <svg width="96" height="96">
+                      <use href="./img/symbol-defs.svg#icon-nutrition"></use>
+                    </svg>
+                    <a class="link category-cards__link" href="./index2.html"
+                      >Nutrition
+                    </a>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="category-cards__item">
+                    <svg width="96" height="96">
+                      <use href="./img/symbol-defs.svg#icon-training"></use>
+                    </svg>
+                    <a class="link category-cards__link" href="#">Training </a>
+                  </article>
+                </li>
+                <li class="swiper-slide">
+                  <article class="category-cards__item">
+                    <svg width="96" height="96">
+                      <use href="./img/symbol-defs.svg#icon-bathing"></use>
+                    </svg>
+                    <a class="link category-cards__link" href="#">Bathing </a>
+                  </article>
+                </li>
+              </ul>
+            </div>
+            <div class="services-section__more-services">
+              <button
+                class="services-section__more-service slider-button"
+                type="button"
+              >
+                more services
+              </button>
+              <svg class="services-arrow-icon" width="30" height="21">
+                <use href="./img/symbol-defs.svg#icon-Arrow"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="customer-section" id="customer">
+        <div class="container">
+          <h2 class="customer-section__title">Happy customer</h2>
+          <div class="customer-section__container slider">
+            <button class="carousel-button swiper-button prev" type="button">
+              <svg
+                class="arrow-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="44"
+                height="44"
+                viewBox="0 0 44 44"
+                fill="none"
+              >
+                <g filter="url(#filter0_b_129_438)">
+                  <circle
+                    cx="22"
+                    cy="22"
+                    r="22"
+                    transform="matrix(-1 0 0 1 44 0)"
+                  />
+                </g>
+                <path
+                  d="M14.293 22.7071C13.9024 22.3166 13.9024 21.6834 14.293 21.2929L20.6569 14.9289C21.0474 14.5384 21.6806 14.5384 22.0711 14.9289C22.4617 15.3195 22.4617 15.9526 22.0711 16.3431L16.4143 22L22.0711 27.6569C22.4617 28.0474 22.4617 28.6805 22.0711 29.0711C21.6806 29.4616 21.0474 29.4616 20.6569 29.0711L14.293 22.7071ZM31.0001 23L15.0001 23L15.0001 21L31.0001 21L31.0001 23Z"
+                  fill="white"
+                />
+                <defs>
+                  <filter
+                    id="filter0_b_129_438"
+                    x="-15.3645"
+                    y="-15.3645"
+                    width="74.7291"
+                    height="74.7291"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feGaussianBlur
+                      in="BackgroundImageFix"
+                      stdDeviation="7.68227"
+                    />
+                    <feComposite
+                      in2="SourceAlpha"
+                      operator="in"
+                      result="effect1_backgroundBlur_129_438"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_backgroundBlur_129_438"
+                      result="shape"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </button>
+            <div
+              class="customer-section__content swiper-container"
+              id="swiper-container-2"
+            >
+              <ul class="customers-cards swiper-wrapper">
+                <li class="customers-cards__customer-card swiper-slide">
+                  <article class="customer-1 customers-cards__customers">
+                    <div class="customer-foto">
+                      <img
+                        class="customers-cards__customer"
+                        srcset="
+                          ./img/customer1.jpg    1x,
+                          ./img/customer1@2x.jpg 2x
+                        "
+                        src="./img/customer1.jpg"
+                        alt="men"
+                      />
+                    </div>
+                    <div class="customers-cards__customer-card-content">
+                      <p class="customers-cards__name-customer">
+                        Christin & Tom
+                      </p>
+                      <p class="customers-cards__info-customer">
+                        Love the overall workout experience!
+                      </p>
+                      <ul class="bones-list">
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-list__marks">5/5</li>
+                      </ul>
+                    </div>
+                  </article>
+                </li>
+                <li class="customers-cards__customer-card swiper-slide">
+                  <article class="customer-2 customers-cards__customers">
+                    <div class="customer-foto">
+                      <img
+                        class="customers-cards__customer"
+                        srcset="./img/custom2.jpg 1x, ./img/custom2@2x.jpg 2x"
+                        src="./img/custom2.jpg"
+                        alt="women"
+                      />
+                    </div>
+                    <div
+                      class="customers-cards__customer-card-content customers-cards__customer-card-content-2"
+                    >
+                      <p class="customers-cards__name-customer">Anna & Tobby</p>
+                      <p class="customers-cards__info-customer">
+                        Amazing Products & Delivery on time.
+                      </p>
+                      <ul class="bones-list">
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item customers-cards__item-custom-2">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="marks">4/5</li>
+                      </ul>
+                    </div>
+                  </article>
+                </li>
+                <li class="customers-cards__customer-card swiper-slide">
+                  <article class="customer-3 customers-cards__customers">
+                    <div class="customer-foto">
+                      <img
+                        class="customers-cards__customer"
+                        srcset="./img/custom3.jpg 1x, ./img/custom3@2x.jpg 2x"
+                        src="./img/custom3.jpg"
+                        alt="women"
+                      />
+                    </div>
+                    <div class="customers-cards__customer-card-content">
+                      <p class="customers-cards__name-customer">
+                        Sindy & Kitch
+                      </p>
+                      <p class="customers-cards__info-customer">
+                        Great job with the trainer!
+                      </p>
+                      <ul class="bones-list">
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="marks">5/5</li>
+                      </ul>
+                    </div>
+                  </article>
+                </li>
+                <li class="customers-cards__customer-card swiper-slide">
+                  <article class="customer-1 customers-cards__customers">
+                    <div class="customer-foto">
+                      <img
+                        class="customers-cards__customer"
+                        srcset="
+                          ./img/customer1.jpg    1x,
+                          ./img/customer1@2x.jpg 2x
+                        "
+                        src="./img/customer1.jpg"
+                        alt="men"
+                      />
+                    </div>
+                    <div class="customers-cards__customer-card-content">
+                      <p class="customers-cards__name-customer">
+                        Christin & Tom
+                      </p>
+                      <p class="customers-cards__info-customer">
+                        Love the overall workout experience!
+                      </p>
+                      <ul class="bones-list">
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-list__marks">5/5</li>
+                      </ul>
+                    </div>
+                  </article>
+                </li>
+                <li class="customers-cards__customer-card swiper-slide">
+                  <article class="customer-2 customers-cards__customers">
+                    <div class="customer-foto">
+                      <img
+                        class="customers-cards__customer"
+                        srcset="./img/custom2.jpg 1x, ./img/custom2@2x.jpg 2x"
+                        src="./img/custom2.jpg"
+                        alt="women"
+                      />
+                    </div>
+                    <div
+                      class="customers-cards__customer-card-content customers-cards__customer-card-content-2"
+                    >
+                      <p class="customers-cards__name-customer">Anna & Tobby</p>
+                      <p class="customers-cards__info-customer">
+                        Amazing Products & Delivery on time.
+                      </p>
+                      <ul class="bones-list">
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item customers-cards__item-custom-2">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="marks">4/5</li>
+                      </ul>
+                    </div>
+                  </article>
+                </li>
+                <li class="customers-cards__customer-card swiper-slide">
+                  <article class="customer-3 customers-cards__customers">
+                    <div class="customer-foto">
+                      <img
+                        class="customers-cards__customer"
+                        srcset="./img/custom3.jpg 1x, ./img/custom3@2x.jpg 2x"
+                        src="./img/custom3.jpg"
+                        alt="women"
+                      />
+                    </div>
+                    <div class="customers-cards__customer-card-content">
+                      <p class="customers-cards__name-customer">
+                        Sindy & Kitch
+                      </p>
+                      <p class="customers-cards__info-customer">
+                        Great job with the trainer!
+                      </p>
+                      <ul class="bones-list">
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="bones-item">
+                          <svg width="32" height="14">
+                            <use href="./img/symbol-defs.svg#icon-bones"></use>
+                          </svg>
+                        </li>
+                        <li class="marks">5/5</li>
+                      </ul>
+                    </div>
+                  </article>
+                </li>
+              </ul>
+              <div class="pagination">
+                <span class="pagination__button"></span>
+                <span class="pagination__button"></span>
+                <span class="pagination__button"></span>
+              </div>
+            </div>
+            <button class="carousel-button swiper-button next" type="button">
+              <svg
+                class="arrow-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="44"
+                height="44"
+                viewBox="0 0 44 44"
+                fill="none"
+              >
+                <g filter="url(#filter1)">
+                  <!-- 0_b_129_438 -->
+                  <circle
+                    cx="22"
+                    cy="22"
+                    r="22"
+                    transform="matrix(-1 0 0 1 44 0)"
+                  />
+                </g>
+                <path
+                  d="M14.293 22.7071C13.9024 22.3166 13.9024 21.6834 14.293 21.2929L20.6569 14.9289C21.0474 14.5384 21.6806 14.5384 22.0711 14.9289C22.4617 15.3195 22.4617 15.9526 22.0711 16.3431L16.4143 22L22.0711 27.6569C22.4617 28.0474 22.4617 28.6805 22.0711 29.0711C21.6806 29.4616 21.0474 29.4616 20.6569 29.0711L14.293 22.7071ZM31.0001 23L15.0001 23L15.0001 21L31.0001 21L31.0001 23Z"
+                  fill="white"
+                />
+                <defs>
+                  <filter
+                    id="filter1"
+                    x="-15.3645"
+                    y="-15.3645"
+                    width="74.7291"
+                    height="74.7291"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feGaussianBlur
+                      in="BackgroundImageFix"
+                      stdDeviation="7.68227"
+                    />
+                    <feComposite
+                      in2="SourceAlpha"
+                      operator="in"
+                      result="effect1_backgroundBlur_129_438"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_backgroundBlur_129_438"
+                      result="shape"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="form-section" id="contacts">
+        <div class="container">
+          <div class="form-section__container">
+            <h2 class="form-section__title">
+              Our experts will take care of your friend
+            </h2>
+            <p class="form-section__text">
+              Fill out the form so we can contact you!
+            </p>
+            <img
+              class="form-section__small-dog"
+              srcset="
+                ./img/small-dog-form.png    1x,
+                ./img/small-dog-form@2x.png 2x
+              "
+              src="./img/small-dog-form.png"
+              alt="small-dog"
+            />
+            <img
+              class="form-section__big-dog"
+              srcset="./img/big-dog-form.png 1x, ./img/big-dog-form@2x.png 2x"
+              src="./img/big-dog-form.png"
+              alt="big-dog"
+            />
+            <div class="form-content">
+              <form class="form-local" autocomplete="on">
+                <div class="form-local__field">
+                  <label
+                    class="form-local__label visually-hidden"
+                    for="name-user"
+                    >Your name</label
+                  >
+                  <svg class="icon svg-form-icon" width="32" height="32">
+                    <use href="./img/symbol-defs.svg#icon-people"></use>
+                  </svg>
+                  <input
+                    class="form-local__input"
+                    type="text"
+                    id="name-user"
+                    name="name-user"
+                    placeholder="Your name"
+                    required
+                  />
+                </div>
+                <div class="form-local__field">
+                  <label
+                    class="form-local__label visually-hidden"
+                    for="name-pet"
+                    >Pet name</label
+                  >
+                  <svg class="icon svg-form-icon" width="32" height="32">
+                    <use href="./img/symbol-defs.svg#icon-pet"></use>
+                  </svg>
+                  <input
+                    class="form-local__input"
+                    type="text"
+                    id="name-pet"
+                    name="name-pet"
+                    placeholder="Pet name"
+                    required
+                  />
+                </div>
+                <div class="form-local__field">
+                  <label
+                    class="form-local__label visually-hidden"
+                    for="phone-number"
+                    >Your phone</label
+                  >
+                  <svg class="icon svg-form-icon" width="32" height="32">
+                    <use href="./img/symbol-defs.svg#icon-tel"></use>
+                  </svg>
+                  <input
+                    class="form-local__input"
+                    type="tel"
+                    id="phone-number"
+                    name="phone-number"
+                    placeholder="Your phone number"
+                    required
+                    pattern="^\+380\d{9}$"
+                    title="Введіть номер телефону у форматі +380"
+                  />
+                </div>
+                <div class="form-local__field">
+                  <label
+                    class="form-local__label visually-hidden"
+                    for="email-user"
+                    >Your email</label
+                  >
+                  <svg class="icon svg-form-icon" width="32" height="32">
+                    <use href="./img/symbol-defs.svg#icon-email"></use>
+                  </svg>
+                  <input
+                    class="form-local__input"
+                    type="email"
+                    id="email-user"
+                    name="email-user"
+                    placeholder="Your email"
+                    required
+                  />
+                </div>
+                <button class="form-local__button button" type="submit">
+                  Contact us
+                </button>
+              </form>
+            </div>
+            <div class="checkbox-form">
+              <input class="input" type="checkbox" id="checkbox-form" />
+              <label class="visually-hidden label" for="checkbox-form"
+                >btn</label
+              >
+              <p class="checkbox-form__privacy">
+                I agree to the privacy policy
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__container">
+          <nav class="footer__nav">
+            <div class="footer__icons">
+              <div class="footer__logo-icon">
+                <svg class="footer__icon" width="43" height="43">
+                  <use href="./img/symbol-defs.svg#icon-icon"></use>
+                </svg>
+                <a class="link color-brand logo" href="./index.html">
+                  <span class="weigth-span">DOG</span>club
+                </a>
+              </div>
+              <div class="footer__social-icons">
+                <svg class="footer__icon-footer" width="43" height="43">
+                  <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="43"
+                  height="43"
+                  viewBox="0 0 40 40"
+                  fill="none"
+                >
+                  <path
+                    d="M36.25 20C36.25 16.7861 35.297 13.6443 33.5114 10.972C31.7258 8.29969 29.1879 6.21689 26.2186 4.98696C23.2493 3.75704 19.982 3.43524 16.8298 4.06225C13.6776 4.68926 10.7821 6.23692 8.50952 8.50952C6.23692 10.7821 4.68926 13.6776 4.06225 16.8298C3.43524 19.982 3.75704 23.2493 4.98696 26.2186C6.21689 29.1879 8.29969 31.7258 10.972 33.5114C13.6443 35.297 16.7861 36.25 20 36.25C24.3085 36.2459 28.4394 34.5325 31.4859 31.4859C34.5325 28.4394 36.2459 24.3085 36.25 20ZM21.25 33.6875V23.75H25C25.3315 23.75 25.6495 23.6183 25.8839 23.3839C26.1183 23.1495 26.25 22.8315 26.25 22.5C26.25 22.1685 26.1183 21.8505 25.8839 21.6161C25.6495 21.3817 25.3315 21.25 25 21.25H21.25V17.5C21.25 16.837 21.5134 16.2011 21.9822 15.7322C22.4511 15.2634 23.087 15 23.75 15H26.25C26.5815 15 26.8995 14.8683 27.1339 14.6339C27.3683 14.3995 27.5 14.0815 27.5 13.75C27.5 13.4185 27.3683 13.1005 27.1339 12.8661C26.8995 12.6317 26.5815 12.5 26.25 12.5H23.75C22.4252 12.5041 21.1558 13.0322 20.219 13.969C19.2822 14.9058 18.7541 16.1752 18.75 17.5V21.25H15C14.6685 21.25 14.3505 21.3817 14.1161 21.6161C13.8817 21.8505 13.75 22.1685 13.75 22.5C13.75 22.8315 13.8817 23.1495 14.1161 23.3839C14.3505 23.6183 14.6685 23.75 15 23.75H18.75V33.6875C15.2262 33.3658 11.9621 31.6981 9.63663 29.0312C7.31112 26.3643 6.10325 22.9035 6.26425 19.3688C6.42525 15.834 7.94274 12.4974 10.5011 10.053C13.0594 7.60854 16.4616 6.24444 20 6.24444C23.5384 6.24444 26.9406 7.60854 29.499 10.053C32.0573 12.4974 33.5748 15.834 33.7358 19.3688C33.8968 22.9035 32.6889 26.3643 30.3634 29.0312C28.0379 31.6981 24.7738 33.3658 21.25 33.6875Z"
+                    fill="#FF9F0E"
+                  />
+                </svg>
+              </div>
+            </div>
+            <ul class="footer__menu">
+              <li class="menu-item">
+                <a class="link footer__link" href="#">Less talk</a>
+              </li>
+              <li class="menu-item">
+                <a class="link footer__link" href="#">Services category</a>
+              </li>
+              <li class="menu-item">
+                <a class="link footer__link" href="#">Happy customer</a>
+              </li>
+              <li class="menu-item">
+                <a class="link footer__link" href="#">Contact</a>
+              </li>
+            </ul>
+            <div class="footer__mobile-social-icons">
+              <svg class="footer__icon-footer" width="32" height="32">
+                <use href="./img/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                height="32"
+                viewBox="0 0 40 40"
+                fill="none"
+              >
+                <path
+                  d="M36.25 20C36.25 16.7861 35.297 13.6443 33.5114 10.972C31.7258 8.29969 29.1879 6.21689 26.2186 4.98696C23.2493 3.75704 19.982 3.43524 16.8298 4.06225C13.6776 4.68926 10.7821 6.23692 8.50952 8.50952C6.23692 10.7821 4.68926 13.6776 4.06225 16.8298C3.43524 19.982 3.75704 23.2493 4.98696 26.2186C6.21689 29.1879 8.29969 31.7258 10.972 33.5114C13.6443 35.297 16.7861 36.25 20 36.25C24.3085 36.2459 28.4394 34.5325 31.4859 31.4859C34.5325 28.4394 36.2459 24.3085 36.25 20ZM21.25 33.6875V23.75H25C25.3315 23.75 25.6495 23.6183 25.8839 23.3839C26.1183 23.1495 26.25 22.8315 26.25 22.5C26.25 22.1685 26.1183 21.8505 25.8839 21.6161C25.6495 21.3817 25.3315 21.25 25 21.25H21.25V17.5C21.25 16.837 21.5134 16.2011 21.9822 15.7322C22.4511 15.2634 23.087 15 23.75 15H26.25C26.5815 15 26.8995 14.8683 27.1339 14.6339C27.3683 14.3995 27.5 14.0815 27.5 13.75C27.5 13.4185 27.3683 13.1005 27.1339 12.8661C26.8995 12.6317 26.5815 12.5 26.25 12.5H23.75C22.4252 12.5041 21.1558 13.0322 20.219 13.969C19.2822 14.9058 18.7541 16.1752 18.75 17.5V21.25H15C14.6685 21.25 14.3505 21.3817 14.1161 21.6161C13.8817 21.8505 13.75 22.1685 13.75 22.5C13.75 22.8315 13.8817 23.1495 14.1161 23.3839C14.3505 23.6183 14.6685 23.75 15 23.75H18.75V33.6875C15.2262 33.3658 11.9621 31.6981 9.63663 29.0312C7.31112 26.3643 6.10325 22.9035 6.26425 19.3688C6.42525 15.834 7.94274 12.4974 10.5011 10.053C13.0594 7.60854 16.4616 6.24444 20 6.24444C23.5384 6.24444 26.9406 7.60854 29.499 10.053C32.0573 12.4974 33.5748 15.834 33.7358 19.3688C33.8968 22.9035 32.6889 26.3643 30.3634 29.0312C28.0379 31.6981 24.7738 33.3658 21.25 33.6875Z"
+                  fill="#FF9F0E"
+                />
+              </svg>
+            </div>
+          </nav>
+          <div class="footer-form">
+            <form class="form-footer" autocomplete="on">
+              <div class="form-field">
+                <label class="footer-label visually-hidden" for="user-email"
+                  >Your email</label
+                >
+                <svg
+                  class="form-footer__footer-icon icon"
+                  width="24"
+                  height="24"
+                >
+                  <use href="./img/symbol-defs.svg#icon-email"></use>
+                </svg>
+                <input
+                  class="form-footer__input footer-email"
+                  type="email"
+                  id="user-email"
+                  name="email-user"
+                  placeholder="Your email"
+                  required
+                />
+              </div>
+              <div class="form-field">
+                <label class="footer-label visually-hidden" for="sms-user"
+                  >Your cmc</label
+                >
+                <input
+                  class="form-footer__input form-footer__footer-cmc"
+                  type="email"
+                  id="sms-user"
+                  name="sms-user"
+                  placeholder="Your cmc"
+                  required
+                />
+              </div>
+              <button
+                class="form-footer__form-button form-footer__footer-button button"
+                type="submit"
+              >
+                Contact us
+              </button>
+              <div class="footer-checkbox checkbox-form">
+                <input class="input" type="checkbox" id="checkbox-footer" />
+                <label class="visually-hidden label" for="checkbox-footer"
+                  >btn</label
+                >
+                <p class="footer-checkbox__privacy">
+                  I agree to the privacy policy
+                </p>
+              </div>
+            </form>
+          </div>
+          <img
+            class="footer__footer-dog"
+            srcset="./img/footer-dog.png 1x, ./img/footer-dog@2x.png 2x"
+            src="./img/footer-dog.png"
+            alt="dog"
+          />
+          <img
+            class="footer__mobile-footer-dog"
+            srcset="
+              ./img/mobile-footer-dog.png    1x,
+              ./img/mobile-footer-dog@2x.png 2x
+            "
+            src="./img/mobile-footer-dog.png"
+            alt="dog"
+          />
+        </div>
+      </div>
+    </footer>
+
+    <div class="backdrop is-hidden">
+      <div class="backdrop__modal">
+        <button class="backdrop__button modal-btn-close" type="button">
+          <!-- <svg width="32" height="32">
+            <use href="./img/symbol-defs.svg#icon-cross"></use>
+          </svg> -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+          >
+            <path
+              d="M8 8L16 16L24 8"
+              stroke="#31261A"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M8 24L16 16L24 24"
+              stroke="#31261A"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+        </button>
+        <div class="backdrop-container">
+          <div class="backdrop-content">
+            <h2 class="backdrop__title">
+              Our experts will take care of your friend
+            </h2>
+            <p class="backdrop__text">
+              Fill out the form so we can contact you!
+            </p>
+            <div class="backdrop-form">
+              <form class="backdrop__modal-form" autocomplete="on">
+                <div class="form-field">
+                  <label
+                    class="form-label visually-hidden"
+                    for="modal-name-user"
+                    >Your name</label
+                  >
+                  <svg class="icon svg-form-icon" width="32" height="32">
+                    <use href="./img/symbol-defs.svg#icon-people"></use>
+                  </svg>
+                  <input
+                    class="backdrop__local-input"
+                    type="text"
+                    id="modal-name-user"
+                    name="name-user"
+                    placeholder="Your name"
+                    pattern="^([А-Я-ІЇЄЩ][а-я-іїєщ]+)\s+([А-Я-ІЇЄЩ][а-я-іїєщ]+)$"
+                    required
+                  />
+                </div>
+                <div class="form-field">
+                  <label class="form-label visually-hidden" for="modal-name-pet"
+                    >Pet name</label
+                  >
+                  <svg class="icon svg-form-icon" width="32" height="32">
+                    <use href="./img/symbol-defs.svg#icon-pet"></use>
+                  </svg>
+                  <input
+                    class="backdrop__local-input"
+                    type="text"
+                    id="modal-name-pet"
+                    name="name-pet"
+                    placeholder="Pet name"
+                    pattern="^([А-Я-ІЇЄЩ][а-я-іїєщ]+)\s+([А-Я-ІЇЄЩ][а-я-іїєщ]+)$"
+                    required
+                  />
+                </div>
+                <div class="form-field">
+                  <label
+                    class="form-label visually-hidden"
+                    for="modal-phone-number"
+                    >Your phone</label
+                  >
+                  <svg class="icon svg-form-icon" width="32" height="32">
+                    <use href="./img/symbol-defs.svg#icon-tel"></use>
+                  </svg>
+                  <input
+                    class="backdrop__local-input"
+                    type="tel"
+                    id="modal-phone-number"
+                    name="phone-number"
+                    placeholder="Your phone number"
+                    required
+                    pattern="^\+380\d{9}$"
+                    title="Введіть номер телефону у форматі +380"
+                  />
+                </div>
+                <div class="form-field">
+                  <label
+                    class="form-label visually-hidden"
+                    for="modal-email-user"
+                    >Your email</label
+                  >
+                  <svg class="icon svg-form-icon" width="32" height="32">
+                    <use href="./img/symbol-defs.svg#icon-email"></use>
+                  </svg>
+                  <input
+                    class="backdrop__local-input"
+                    type="email"
+                    id="modal-email-user"
+                    name="email-user"
+                    placeholder="Your email"
+                    required
+                  />
+                </div>
+                <button class="form-button button" type="submit">
+                  Contact us
+                </button>
+              </form>
+              <div class="checkbox-form">
+                <input
+                  class="input custom-checkbox"
+                  type="checkbox"
+                  id="modal-checkbox-form"
+                />
+                <label class="visually-hidden label" for="modal-checkbox-form"
+                  >btn</label
+                >
+                <p class="backdrop__privacy">I agree to the privacy policy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/services-slider.js"></script>
+    <script src="./js/customer-slider.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/checkbox.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+.talkwalk-section {
+  padding: 0 20px;
+
+  &__container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__content {
+    position: relative;
+    padding-top: 0px;
+
+    @media screen and (min-width: 1280px) {
+      padding-top: 75px;
+    }
+  }
+
+  &__arrow-mobile {
+    position: absolute;
+    right: 95px;
+
+    @media screen and (min-width: 768px) {
+      width: 78px;
+      height: 70px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
+
+  &__text {
+    margin-bottom: 24px;
+    font-size: 18px;
+
+    @media screen and (min-width: 1280px) {
+      font-size: 22px;
+      width: 640px;
+    }
+  }
+
+  &__play-mobile {
+    display: block;
+    position: absolute;
+    right: 64px;
+    bottom: -20px;
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
+
+  &__img {
+    display: none;
+
+    @media screen and (min-width: 1280px) {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.bones-list {
+  display: flex;
+  gap: 8px;
+  fill: var(--color-brand);
+  padding-left: 0;
+
+  &__marks {
+    padding-left: 40px;
+    color: var(--color-brand);
+  }
+}

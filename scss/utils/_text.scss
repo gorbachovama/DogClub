@@ -1,0 +1,21 @@
+.color-brand {
+  color: var(--color-brand);
+}
+
+.weight-span {
+  font-size: 16px;
+  font-weight: 400;
+
+  @media screen and (min-width: 786px) {
+    font-size: 32px;
+  }
+}
+
+span {
+  font-size: 16px;
+  font-weight: 400;
+
+  @media screen and (min-width: 786px) {
+    font-size: 32px;
+  }
+}

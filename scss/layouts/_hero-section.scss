@@ -1,0 +1,109 @@
+.hero-section {
+  background-image: url(/img/mobile-hero-background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+  // padding: 0 10px 0 10px;
+  height: 400px;
+
+  @media screen and (min-width: 768px) {
+    background-image: url(/img/hero-background-vector.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 0 10px;
+    height: 730px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding: 0 10px 100px 10px;
+    height: 100%;
+  }
+
+  &__container {
+    display: flex;
+    gap: 0;
+    padding: 73px 0 0 0;
+    z-index: 1;
+    background-image: none;
+    height: 808px;
+    background-image: url(/img/mobile-hero-elements.png);
+    background-repeat: no-repeat;
+    background-position: center 23%;
+
+    @media screen and (min-width: 480px) {
+      padding: 110px 0 0 0;
+      background-position: center 40%;
+    }
+
+    @media screen and (min-width: 768px) {
+      // background-position: 55% 28%;
+      background-position: 50% 33%;
+      padding: 110px 0 0 0;
+      gap: 65px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      background-image: url(../img/hero-background-elements.png);
+      background-repeat: no-repeat;
+      background-position: right 55%;
+      padding: 227px 0 0 0;
+    }
+  }
+
+  &__content {
+    margin: 0 auto;
+    text-align: center;
+
+    @media screen and (min-width: 1280px) {
+      text-align: left;
+      width: 635px;
+    }
+  }
+
+  &__title {
+    font-size: 32px;
+    margin-bottom: 24px;
+
+    @media screen and (min-width: 1280px) {
+      font-size: 72px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    padding-bottom: 16px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1280px) {
+      font-size: 22px;
+      margin-bottom: 24px;
+      margin: 0;
+    }
+  }
+
+  &__dogs {
+    position: relative;
+    right: 60px;
+  }
+
+  &__vector {
+    display: none;
+
+    @media screen and (min-width: 1280px) {
+      display: block;
+      position: relative;
+    }
+  }
+
+  &__img {
+    display: none;
+
+    @media screen and (min-width: 1280px) {
+      display: block;
+      position: absolute;
+      z-index: 1;
+    }
+  }
+}

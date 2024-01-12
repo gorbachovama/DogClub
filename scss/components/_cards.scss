@@ -1,0 +1,103 @@
+// SERVICES-SECTION
+.category-cards {
+  padding-left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #fff 0%, #fffbf4 100%);
+    width: 100%;
+    max-width: 240px;
+    height: 240px;
+    border: 1px solid #f9f9ff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(24, 24, 23, 0.05);
+    cursor: pointer;
+  }
+
+  &__link {
+    color: var(--color-brand);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.17;
+    margin-top: 24px;
+  }
+}
+
+// .swiper-slide {
+//   width: 100%;
+//   max-width: 240px;
+// }
+
+// CUSTOMER-SECTION
+
+.customers-cards {
+  display: flex;
+  // gap: 16px;
+  align-items: center;
+  justify-content: start;
+  padding-left: 0;
+
+  &__customers {
+    border-radius: 24px;
+    position: relative;
+    width: 320px;
+    height: 416px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+      width: 344px;
+      height: 456px;
+    }
+  }
+
+  &__customer {
+    border-radius: 24px;
+    width: 320px;
+    height: 416px;
+
+    @media screen and (min-width: 768px) {
+      width: 344px;
+      height: 456px;
+    }
+  }
+
+  &__name-customer {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.17;
+  }
+
+  &__info-customer {
+    margin-bottom: 24px;
+    font-size: 16px;
+    line-height: 1.17;
+  }
+
+  &__item-custom-2 {
+    fill: var(--color-white);
+  }
+
+  &__customer-card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: var(--color-white);
+    background-color: var(--color-secondary-text);
+    padding: 16px 40px 16px 40px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+  }
+
+  &__customer-card-content-2 {
+    padding: 16px 35px 16px 35px;
+  }
+}

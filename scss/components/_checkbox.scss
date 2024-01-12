@@ -1,0 +1,52 @@
+// FORM-SECTION
+
+.checkbox-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // padding-top: 17px;
+
+  &__privacy {
+    color: var(--color-secondary-text);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.17;
+    margin-bottom: 0;
+  }
+}
+
+// CUSTOMER-SECTION
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 32px;
+}
+.pagination__button {
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-secondary-text);
+  border-radius: 50%;
+  padding: 0;
+}
+.pagination__button--active {
+  background-color: var(--color-brand);
+}
+
+// FOOTER
+
+.footer-checkbox {
+  padding-top: 0;
+
+  &__privacy {
+    color: var(--color-secondary-text);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.17;
+    margin-bottom: 0;
+  }
+}

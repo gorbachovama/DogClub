@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1265px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+a {
+  display: inline-block;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+h1 {
+  font-family: Rowdies;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 3.6px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-family: Rowdies;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 24px;
+
+  @media screen and (min-width: 1280px) {
+    font-size: 56px;
+    margin-bottom: 40px;
+  }
+}
+
+p {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.logo {
+  font-family: "Rowdies", sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+  color: var(--color-brand);
+
+  @media screen and (min-width: 786px) {
+    font-size: 24px;
+  }
+}
+
+.icon {
+  fill: var(--color-brand);
+}

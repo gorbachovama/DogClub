@@ -1,0 +1,114 @@
+.form-local {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+
+  @media screen and (min-width: 786px) {
+    gap: 24px;
+  }
+
+  &__input {
+    position: relative;
+    font-size: 16px;
+    width: 320px;
+    height: 48px;
+    border: 1px solid var(--color-brand);
+    border-radius: 8px;
+    padding: 10.5px 24px 10.5px 56px;
+    background-color: transparent;
+
+    &::placeholder {
+      color: var(--color-brand);
+    }
+
+    &:focus::placeholder {
+      color: var(--color-text);
+    }
+
+    &:active {
+      border: 1px solid var(--color-brand);
+    }
+
+    @media screen and (min-width: 786px) {
+      font-size: 18px;
+      width: 600px;
+      padding: 12.5px 35px 12.5px 80px;
+    }
+  }
+
+  &__button {
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 786px) {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+.svg-form-icon {
+  position: absolute;
+  margin-left: 24px;
+  margin-top: 8px;
+
+  @media screen and (min-width: 786px) {
+    margin-left: 40px;
+  }
+}
+
+// FOOTER
+
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+
+  &__input {
+    width: 320px;
+    height: 40px;
+    padding: 8px 24px 8px 24px;
+    border: 1px solid var(--color-brand);
+    border-radius: 8px;
+    background-color: transparent;
+    padding-left: 56px;
+
+    &::placeholder {
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--color-brand);
+
+      @media screen and (min-width: 786px) {
+        font-weight: 700;
+      }
+    }
+
+    &:focus::placeholder {
+      color: var(--color-text);
+    }
+
+    &:active {
+      border: 1px solid var(--color-brand);
+    }
+
+    // @media screen and (min-width: 786px) {
+    //   padding: 8px 24px 8px 24px;
+    // }
+  }
+
+  &__footer-icon {
+    position: absolute;
+    margin-left: 24px;
+    margin-top: 8px;
+  }
+
+  &__form-button {
+    padding: 8px 24px;
+    margin-bottom: 0;
+  }
+
+  &__footer-cmc {
+    padding: 8px 56px 8px 24px;
+  }
+}
